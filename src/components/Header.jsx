@@ -1,7 +1,6 @@
 import LOGO from "../assets/react-core-concepts.png";
 import './Header.css';
 
-
 const reactDescription = ['Fundamental', 'Crucial', 'Core'];
 
 function genRandomInt(max) {
@@ -15,7 +14,7 @@ function Header() {
     <img src={LOGO} alt="Stylized atom" />
       <h1>React Essentials</h1>
       <p>
-        {description} 
+        {description} React concepts you will need for almost any app you are gonna to build.
       </p>
     </header>
   );
