@@ -1,4 +1,4 @@
-import './CoreConcept.css'
+import './CoreConcept.css';
 
 export function CoreConcept({title, description, image}) { // {} object destructuring
   return (
